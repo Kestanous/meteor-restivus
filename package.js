@@ -19,8 +19,8 @@ Package.onUse(function (api) {
 
   api.addFiles('lib/auth.coffee', 'server');
   api.addFiles('lib/iron-router-error-to-response.js', 'server');
-  api.addFiles('lib/route.coffee', 'server');
   api.addFiles('lib/restivus.coffee', 'server');
+  api.addFiles('lib/route.coffee', 'server');
 
   // Exports
   api.export('Restivus', 'server');

@@ -1,4 +1,4 @@
-class @Route
+class Restivus.Route
 
   constructor: (@api, @path, @options, @endpoints) ->
     # Check if options were provided
